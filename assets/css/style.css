@@ -143,6 +143,29 @@ footer {
 
 /* Media Queries */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 980px) {
+    .container {
+        width: 60%;
+        margin-right: 30%;
+    }
+
+    .nav-container {
+        float: right;
+    }
+
+    /* Can't figure out how to keep name from leaving vewiport */
+
+    /* Portfolio */
+
+    .wrap {
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 640px) {
     
 }
