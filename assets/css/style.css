@@ -145,7 +145,7 @@ footer {
 
 @media only screen and (max-width: 980px) {
     .container {
-        width: 60%;
+        width: 75%;
         margin-right: 30%;
     }
 
@@ -163,9 +163,26 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    
+    /* Couldn't figure out width */
+    .container {
+        width: 100%;
+    }
+
+    /* Portfolio Page */
+
+    .wrap {
+        margin-right: 30px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
-    
+    .name {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    /* Cant figure out text alignment */
+
+    /* Also can't figure out image align center */
 }
